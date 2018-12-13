@@ -10,7 +10,7 @@ function convertHTML(str) {
         strArray[i] = '&lt;';
         break;
       case '>':
-        strArray[i] = '&gt';
+        strArray[i] = '&gt;';
         break;
       case '"':
         strArray[i] = '&quot;';

@@ -6,7 +6,8 @@ function sumAll(arr) {
   while(num2 > num1+1) {
     num2--;
     newNumArray.push(num2);
-  };
+  }
+
   return newNumArray.reduce((total, num) => total + num);
 }
 
